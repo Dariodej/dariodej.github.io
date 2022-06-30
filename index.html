@@ -1,9 +1,164 @@
-<html>
- 
-<body>
-  <h1>Dario </h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Style Guide</title>
+    <link rel="stylesheet" href="Resources/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#colors">Colors</a></li>
+        <li><a href="#fonts">Fonts</a></li>
+        <li><a href="#text-style">Text Styles</a></li>
+        <li><a href="#box-model">Box Model</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>My Style Guide</h1>
+    </header>
+    <main>
+      <div class="container">
+        <h2 id="colors">Colors</h2>
+        <div class="color-container">
+          <div class="color-panel pink">
+            <p class="pink">Pink</p>
+            <p class="color-hex pink">#e670b5</p>
+          </div>
+          <div class="color-panel blue">
+            <p class="blue">Blue</p>
+            <p class="color-hex blue">#180aad</p>
+          </div>
+          <div class="color-panel orange">
+            <p class="orange">Orange</p>
+            <p class="color-hex orange">#d67011</p>
+          </div>
+          <div class="color-panel green">
+            <p class="green">Green</p>
+            <p class="color-hex green">#0a7307</p>
+          </div>
+          <div class="color-panel beige">
+            <p class="beige">Beige</p>
+            <p class="color-hex beige">#f2d7bd</p>
+          </div>
+          <div class="color-panel teal">
+            <p class="teal">Teal</p>
+            <p class="color-hex teal">#27e6c3</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <h2 id="fonts">Fonts</h2>
+        <div class="font-panel">
+          <h3 class="cormorant">Cormorant Garamond</h3>
+
+          <p class="italic cormorant">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="regular cormorant">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="bold cormorant">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+        </div>
+        <div class="font-panel">  
+          <h3 class="old">Old Standard TT</h3>
+
+          <p class="italic old">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="regular old">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="bold old">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+        </div>
+        <div class="font-panel">  
+          <h3 class="open-sans">Old Standard TT</h3>
+
+          <p class="italic open-sans">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="regular open-sans">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="bold open-sans">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+        </div>
+        <div class="font-panel">  
+          <h3 class="mukta">Old Standard TT</h3>
+
+          <p class="italic mukta">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="regular mukta">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+          <p class="bold mukta">
+            I am not afraid of storms, for I am learning how to sail my ship.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <h2 id="text-style">Text Styles</h2>
+        <div>
+          <h1 class="text-style">H1: Main title</h1>
+          <ul>
+            <li>Font size: 50px</li>
+            <li>Font weight: 700</li>
+            <li>Font-family: Arial, Helvetica, sans-serif</li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-style">H2: Subheading</h2>
+          <ul>
+            <li>Font size: 30px</li>
+            <li>Font weight: 600</li>
+            <li>Font-family: Open-Sans, sans-serif</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-style">H3: Sub-subheading</h3>
+          <ul>
+            <li>Font size: 20px</li>
+            <li>Font weight: 500</li>
+            <li>Font-family: 'Mukta', sans-serif</li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-style">p: paragraph</p>
+          <ul>
+            <li>Font size: 15px</li>
+            <li>Font weight: 400</li>
+            <li>Font-family: Arial, Helvetica, sans-serif</li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <h2 id="box-model">Box Model</h2>
+          <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model/boxmodel-(3).png"/>
+      </div>
+    </main>
+  </body>
 </html>
